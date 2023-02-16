@@ -1,6 +1,7 @@
 //import { BasicTypes } from "./typescript/BasicTypes";
 
-import { Function } from "./typescript/Function";
+import { Counter } from "./components/Counter";
+// import { Function } from "./typescript/Function";
 
 // import { LiteralObject } from "./typescript/LiteralObject";
 
@@ -11,7 +12,8 @@ const App = () => {
       <hr />
       {/* <BasicTypes/> */}
       {/* <LiteralObject/> */}
-      <Function/>
+      {/* <Function/> */}
+      <Counter/>
     </div>
   );
 }
